@@ -24,7 +24,8 @@ private:
     float fpsTimer = 0.0f;
 
     void processInput();
-    void renderFrame();
+    void renderFrameOOP();
+    void renderFrameDOD();
     void spawnEntities(size_t count);
     void broadPhaseCollisions();
 public:

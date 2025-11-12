@@ -36,7 +36,7 @@ void Entity::updateDir(float speedChange)
     {
         eRects.data()[i].x += (vRects.data()[i].xDir * STARTING_SPEED * speedChange);
         eRects.data()[i].y += (vRects.data()[i].yDir * STARTING_SPEED * speedChange);
-        printf("pass update");
+        //printf("pass update");
     }
 }
 void Entity::checkCollision(float windowH, float windowW) {

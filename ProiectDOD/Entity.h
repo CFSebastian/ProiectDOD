@@ -4,9 +4,9 @@
 #include <iostream>
 #include <vector>
 
-#define ENTITY_SIZE 10.5
-#define NUMBER_OF_ENTITYS 50
-#define STARTING_SPEED 20.5f
+#define ENTITY_SIZE 1.5
+#define NUMBER_OF_ENTITYS 1000
+#define STARTING_SPEED 0.5f
 
 struct velocity {
     float xDir, yDir;
